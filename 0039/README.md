@@ -14,4 +14,5 @@ for chose in choses:
     backtrack(path, choses)
     # rollback chose
     path.remove(chose)
+    rollback chose to choses
 ```
