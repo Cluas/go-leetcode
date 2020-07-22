@@ -39,7 +39,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 }
 
 func dfs(nums []int, target int) [][]int {
-	ans := [][]int{}
+	var ans [][]int
 	for i, n := range nums {
 		// 与上一个值比较是否相同，避免重复搜索
 		if i > 0 && nums[i-1] == n {
