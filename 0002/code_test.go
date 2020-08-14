@@ -1,4 +1,4 @@
-package add_two_numbers
+package leetcode
 
 import (
 	"reflect"

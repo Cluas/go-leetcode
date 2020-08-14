@@ -10,7 +10,7 @@
 //	Output: 7 -> 0 -> 8
 //	Explanation: 342 + 465 = 807.
 
-package add_two_numbers
+package leetcode
 
 // ListNode definition for singly-linked list.
 type ListNode struct {

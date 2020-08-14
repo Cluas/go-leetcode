@@ -8,7 +8,7 @@
 //
 //	Because nums[0] + nums[1] = 2 + 7 = 9,
 //	return [0, 1].
-package two_sum
+package leetcode
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
