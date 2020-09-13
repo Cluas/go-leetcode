@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestFindErrorNums(t *testing.T) {
+func TestWordPattern(t *testing.T) {
 	tests := []struct {
 		pattern string
 		s       string
