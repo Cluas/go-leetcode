@@ -53,7 +53,7 @@ func frequencySort(s string) string {
 	}
 
 	var keys []int
-	for k, _ := range cm {
+	for k := range cm {
 		keys = append(keys, k)
 	}
 
